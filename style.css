@@ -1,0 +1,67 @@
+width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-family: Arial, sans-serif;
+    font-size: 0.92rem;
+}
+
+th, td {
+    border: 1px solid var(--border-soft);
+    padding: 0.7rem 0.9rem;
+    text-align: left;
+}
+
+th {
+    background-color: #f3ece1;
+    color: var(--crimson-dark);
+}
+
+blockquote {
+    background-color: #f8f2e8;
+    border-left: 4px solid var(--gold);
+    padding: 1rem 1.3rem;
+    font-style: italic;
+    color: var(--ink-muted);
+    margin: 1.2rem 0;
+}
+
+ul, ol {
+    margin: 0.6rem 0 1.2rem 1.5rem;
+}
+
+li {
+    margin-bottom: 0.45rem;
+}
+
+/* Нижняя перелинковка между страницами */
+.page-nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1.2rem 1.5rem;
+    background-color: #f3ece1;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+
+.page-nav a {
+    color: var(--crimson-dark);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.page-nav a:hover {
+    text-decoration: underline;
+}
+
+/* Подвал */
+footer {
+    text-align: center;
+    padding: 1.8rem 1rem;
+    font-family: Arial, sans-serif;
+    font-size: 0.85rem;
+    color: var(--ink-muted);
+    border-top: 1px solid var(--border-soft);
+    margin-top: 2rem;
+}
